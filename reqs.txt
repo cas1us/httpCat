@@ -11,4 +11,5 @@ pywin32==302
 pywin32-ctypes==0.2.0
 requests==2.22.0
 virtualenv==20.10.0
-
+kivy-deps.gstreamer==0.3.2
+kivy-deps.sdl2==0.3.1
