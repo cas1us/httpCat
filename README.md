@@ -8,3 +8,10 @@ A http.cat viewer with GUI made in python using MDkivy
  - Create venv ```python -m virtualenv kivy_venv``` (or name it whatever you want, I'm just using the kivy docs)
  - Activate venv, run the script in ``` venv/scripts/activate ```
  - Install the packages ```pip install -r reqs.txt```
+
+# If you have problems
+ - Delete venv and make a new one
+ - Activate new venv
+ - Run ```python -m pip install -U pip```
+ - Run ```python -m pip install -U --force-reinstall -r reqs.txt```
+ - Hopfully this solves the issue with not being able to import sdl2
