@@ -16,3 +16,5 @@ A http.cat viewer with GUI made in python using MDkivy
  - Run ```python -m pip install -U --force-reinstall -r reqs.txt```
  - Hopfully this solves the issue with not being able to import sdl2
  - Set ```include-system-site-packages = true``` if you encounter further problems 
+
+### Thank you very much to Axel for helping me with OOP bullshit
