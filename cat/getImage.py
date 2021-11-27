@@ -1,18 +1,4 @@
 import random
-import os
-import atexit
-
-
-def run():
-    filesInDir = os.listdir(os.getcwd())
-    filesToDelte = [file for file in filesInDir if file.endswith(".jpg")]
-
-    def exitHandler():
-        for file in filesToDelte:
-            filePath = os.path.join(os.getcwd(), file)
-            os.remove(filePath)
-
-    atexit.register(exitHandler)
 
 
 def getCat():
@@ -24,7 +10,6 @@ def getCat():
             525,
             599]  # the list of cats
 
-    os.chdir('cat')
     cat = random.choice(cats)
     print(cat)
     return cat
